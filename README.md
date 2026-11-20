@@ -1,1 +1,0 @@
-# Simulador-chomsky.j
