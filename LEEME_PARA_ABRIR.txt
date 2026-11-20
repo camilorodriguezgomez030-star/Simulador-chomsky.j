@@ -1,0 +1,14 @@
+SIMULADOR JERARQUIA DE CHOMSKY - INSTRUCCIONES (WINDOWS)
+Autor: Camilo Rodriguez
+
+1. Extrae esta carpeta del ZIP.
+2. Instala Python 3 desde https://www.python.org/downloads/ si no lo tienes.
+   Durante la instalacion, marca la opcion "Add Python to PATH".
+3. Haz doble clic en ABRIR_SIMULADOR.bat.
+4. El archivo instalara la dependencia customtkinter (requiere internet la primera vez)
+   y luego iniciara el simulador.
+
+Alternativa manual:
+- Abre una terminal dentro de esta carpeta.
+- Ejecuta: python -m pip install -r requirements.txt
+- Ejecuta: python main.py
