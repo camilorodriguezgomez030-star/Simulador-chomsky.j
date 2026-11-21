@@ -103,10 +103,8 @@ class Nivel2Window(ctk.CTkToplevel):
         self.vista_pila.configure(state="normal")
         self.vista_pila.delete("1.0", "end")
         for elem in reversed(dato["pila"]):
-            self.vista_pila.insert("end", f"  |  {elem:^3}  |
-")
-            self.vista_pila.insert("end", "  +-------+
-")
+            self.vista_pila.insert("end", f"  |  {elem:^3}  |\n")
+            self.vista_pila.insert("end", "  +-------+\n")
         self.vista_pila.configure(state="disabled")
 
         self.btn_ant.configure(state="normal" if self.paso_actual > 0 else "disabled")
@@ -134,3 +132,8 @@ class Nivel2Window(ctk.CTkToplevel):
             self.entrada_cadena.insert(0, cadena)
             self.cargar_cadena()
         self.combo_ejemplos.set("Ejemplos...")
+
+       
+     
+       
+        
