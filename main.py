@@ -48,8 +48,7 @@ class SimuladorChomskyApp(ctk.CTk):
                 "row": 0, "col": 0,
                 "badge": "TIPO 3 • LENGUAJES REGULARES",
                 "titulo": "Autómata Finito Determinista (AFD)",
-                "desc": "Reconocimiento símbolo a símbolo para L = { w ∈ {0,1}* | w termina en '01' }.
-Visualiza conjunto de estados Q y estado activo.",
+                "desc": "Reconocimiento símbolo a símbolo para L = { w ∈ {0,1}* | w termina en '01' }.\nVisualiza conjunto de estados Q y estado activo.",
                 "color": "#0284C7", "hover": "#0369A1",
                 "cmd": lambda: self._abrir_modulo(Nivel3Window)
             },
@@ -57,8 +56,7 @@ Visualiza conjunto de estados Q y estado activo.",
                 "row": 0, "col": 1,
                 "badge": "TIPO 2 • LIBRES DE CONTEXTO",
                 "titulo": "Autómata de Pila (PDA - Memoria LIFO)",
-                "desc": "Reconocimiento de palíndromos con marcador L = { w c w^R | w ∈ {a,b}* }.
-Animación dinámica de operaciones Push y Pop en la pila.",
+                "desc": "Reconocimiento de palíndromos con marcador L = { w c w^R | w ∈ {a,b}* }.\nAnimación dinámica de operaciones Push y Pop en la pila.",
                 "color": "#0D9488", "hover": "#0F766E",
                 "cmd": lambda: self._abrir_modulo(Nivel2Window)
             },
@@ -66,8 +64,7 @@ Animación dinámica de operaciones Push y Pop en la pila.",
                 "row": 1, "col": 0,
                 "badge": "TIPO 1 • SENSIBLES AL CONTEXTO",
                 "titulo": "Autómata Linealmente Acotado (LBA)",
-                "desc": "Reconocimiento de L = { 0^n 1^n 2^n | n ≥ 1 } en memoria acotada.
-Cinta con delimitadores de frontera [ ] y cabezal bidireccional.",
+                "desc": "Reconocimiento de L = { 0^n 1^n 2^n | n ≥ 1 } en memoria acotada.\nCinta con delimitadores de frontera [ ] y cabezal bidireccional.",
                 "color": "#7C3AED", "hover": "#6D28D9",
                 "cmd": lambda: self._abrir_modulo(Nivel1Window)
             },
@@ -75,8 +72,7 @@ Cinta con delimitadores de frontera [ ] y cabezal bidireccional.",
                 "row": 1, "col": 1,
                 "badge": "TIPO 0 • RECURSIVAMENTE ENUMERABLES",
                 "titulo": "Máquina de Turing (MT)",
-                "desc": "Cálculo de Complemento a Uno Binario sobre {0,1}+.
-Cinta dinámicamente expansible (⊔), alfabeto Γ y cabezal L/E.",
+                "desc": "Cálculo de Complemento a Uno Binario sobre {0,1}+.\nCinta dinámicamente expansible (⊔), alfabeto Γ y cabezal L/E.",
                 "color": "#D97706", "hover": "#B45309",
                 "cmd": lambda: self._abrir_modulo(Nivel0Window)
             }
@@ -124,3 +120,7 @@ Cinta dinámicamente expansible (⊔), alfabeto Γ y cabezal L/E.",
 if __name__ == "__main__":
     app = SimuladorChomskyApp()
     app.mainloop()
+        
+            
+
+           
